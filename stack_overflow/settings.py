@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'd+1@sqa4%4+s$-d&+!g(86c8#@)7*ke!zvqcwi!53kx&n=1+ld'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'rest_framework',
 
     'stack_search.apps.StackSearchConfig',
-    'frontend.apps.FrontendConfig',
 ]
 
 REST_FRAMEWORK = {
