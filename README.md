@@ -1,0 +1,4 @@
+Requirments:
+    django
+    djangorestframework
+    requests
