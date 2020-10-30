@@ -1,4 +1,4 @@
 Requirments:
-    django
-    djangorestframework
-    requests
+    django,
+    djangorestframework,
+    requests,
